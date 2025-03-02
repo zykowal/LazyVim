@@ -4,7 +4,6 @@ return {
     priority = 1000,
     lazy = false,
     opts = {
-      bigfile = { enable = true },
       picker = {
         sources = {
           explorer = {
