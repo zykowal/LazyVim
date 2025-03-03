@@ -29,6 +29,9 @@ return {
     "folke/which-key.nvim",
     -- Modify which-key mappings
     opts = {
+      icons = {
+        mappings = false,
+      },
       spec = {
         { "<leader>w", desc = "Save Current Buffer" },
         { "<leader>d", desc = "Close Current Buffer" },
